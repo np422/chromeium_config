@@ -67,7 +67,7 @@ cat<<EOF>/home/desktop/.dmrc
 Session=default
 EOF
 
-mkdir /home/desktop/.config/i3
+mkdir -p /home/desktop/.config/i3
 chown desktop:desktop /home/desktop/.config/i3
 chown desktop:desktop /home/desktop/.config
 
