@@ -4,7 +4,7 @@ apt install -y i3 chromium-browser
 
 /usr/sbin/useradd -c "Desktop User" -m -p '$6$7dPGQfjM$nnTRTf2yvukJhpHb06DfLzawH/s1lnTvU8RHrQwHeZ0Dm15kvGrv08BTd8D3nTEoKM74TAvh5HG6ZBX3zN6kX0' desktop
 
-# Lightdm, often used by liberals
+# Lightdm, used by server install cd
 #
 #cat<<\EOF>/etc/lightdm/lightdm.conf.d/50-autologin.conf
 #[SeatDefaults]
@@ -14,7 +14,7 @@ apt install -y i3 chromium-browser
 sed -i -e 's/#  AutomaticLoginEnable = true/AutomaticLoginEnable = true/g' /etc/gdm3/custom.conf
 sed -i -e 's/#  AutomaticLogin = user1/AutomaticLogin = desktop/g' /etc/gdm3/custom.conf
 
-# session fil för light-dm
+# session fil för light-dm,
 #
 #cat<<\EOF>/usr/share/xsessions/default.desktop
 #[Desktop Entry]
